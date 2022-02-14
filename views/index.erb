@@ -6,5 +6,25 @@
 	<link rel="stylesheet" href="/assets/css/count.css">
 </head>
 <body>
+	<h1><%= @number %></h1>
+	<form action="/plus" method="post">
+		<input type="submit" name="plus" value="+"></input>
+	</form>
+	<form action="/minus" method="post">
+		<input type="submit" name="minus" value="-"></input>
+	</form>
+	<form action="/clear" method="post">
+		<input type="submit" name="clear" value="clear"></input>
+	</form>
+	<form action="/x2" method="post">
+		<input type="submit" name="clear" value="x2"></input>
+	</form>
+	<form action="/÷2" method="post">
+		<input type="submit" name="clear" value="÷2"></input>
+	</form>
+	<h1><%= @number2 %></h1>
+	<!--<form action="/plus2" method="post">-->
+	<!--	<input type="submit" name="plus2" value="+"></input>-->
+	<!--</form>-->
 </body>
 </html>
